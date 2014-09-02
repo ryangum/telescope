@@ -14,24 +14,20 @@ body{
 /*Nav bar*/
 
 .header {
-  background-color: #334256;
-  min-height: 77px;
+  background-color: #fdfdfd;
+  min-height:77px;
 }
 
 .header .logo a, .header .logo a:visited {
-  color: #FFF;
-  letter-spacing: 8px;
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 400;
+  color: #51b9db;
 }
 
 .header a, .header a:link, .header a:visited {
-  color: #FFF;
+  color: #555;
 }
 
 .button {
-  background: #03A7D5;
+  background: #51b9db;
 }
 
 .search-field {
@@ -39,7 +35,7 @@ body{
 }
 
 .logo header-module {
-  font-size: 30px;
+  font-size:30px;
   color: #666;
 }
 
@@ -49,11 +45,11 @@ body{
 /*Share Icon*/
 
 .icon-share {
-  color: #218EC9;
+  color: #62d962;
 }
 
 .post-share > a:hover, .post-share > a:hover .action {
-  color: #218EC9;
+  color: #62d962;
 }
 
 
@@ -61,15 +57,15 @@ body{
 /*Dicuss icon*/
 
 .post-discuss > a.discuss-link {
-  color: #334256;
+  color: #ef540c;
 }
 
-.post-discuss > a:hover, .post-discuss > a:hover .action {
-  color: #334256;
+.post-discuss > a:hover {
+  color: #ef540c;
 }
 
 .icon-comment, .icon-comment .count {
-  color: #334256;
+  color: #ef540c;
 }
 
 
