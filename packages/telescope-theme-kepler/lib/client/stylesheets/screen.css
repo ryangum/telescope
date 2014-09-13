@@ -1,8 +1,19 @@
 
-body{
+body {
   background-color: #FFF;
 }
 
+p {
+  margin-bottom: 20px;
+}
+
+.content-wrapper {
+  padding-bottom: 70px;
+}
+
+.downvote {
+  display:none !important;
+}
 
 .newsletter-banner.newsletter-banner {
   background: #FDFDFD;
@@ -14,6 +25,7 @@ body{
 
 .header {
   background-color: #242E35;
+  min-height:77px;
 }
 
 .header .logo a, .header .logo a:visited {
@@ -22,7 +34,7 @@ body{
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 400;
-  font-family: montserrat, "open sans", helvetica, arial, sans-serif;
+  font-family: montserrat, helvetica, arial, sans-serif;
 }
 
 .header a, .header a:link, .header a:visited {
@@ -96,14 +108,72 @@ body{
 }
 
 .post:last-child {
-  border: 2px solid #e7eff2;
+  border: 1px solid #e7eff2;
   border-radius:4px;
 }
 
+.post.sticky {
+  background: #E0F0FF;
+}
+
+
+
+/*Comments*/
+
+.post {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
 .post-body {
-  border: 1px solid #e7eff2;
+  border: 1px solid #eee;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .comment-new {
-  border: 1px solid #e7eff2; 
+  border: 1px solid #eee;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
+
+.comment-content {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid #eee;
+  /*border-radius: 0px;*/
+}
+
+
+
+
+/*Static Pages*/
+
+/*About Page*/
+#about {
+  margin: 70px auto;
+  max-width: 700px;
+}
+
+#about h1 {
+  margin-bottom:20px;
+}
+
+#about li {
+  margin: 0 0 0 20px;
+  list-style: disc;
+}
+
+#about h3 {
+  color: inherit;
+}
+
+#about h2 {
+  font-size: 30px;
+}
+
+#about a {
+  color: #dd3416;
+}
+
+/*End About Page*/
