@@ -1,10 +1,28 @@
 
+
+@font-face {
+  font-family: 'proxima-nova';
+    src: url('packages/telescope-theme-kepler/lib/client/css/fonts/proximanova-regular-webfont.eot');
+    src: url('packages/telescope-theme-kepler/lib/client/css/fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('packages/telescope-theme-kepler/lib/client/css/fonts/proximanova-regular-webfont.woff') format('woff'),
+         url('packages/telescope-theme-kepler/lib/client/css/fonts/proximanova-regular-webfont.ttf') format('truetype'),
+         url('packages/telescope-theme-kepler/lib/client/css/fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+  font-weight:400;
+  font-style:normal;
+}
+
 body {
+  font-family: "proxima nova", "Open Sans", "Proxima Nova Soft", "proxima-nova-soft", "PT SANS", "Helvetica Neue", Helvetica, sans-serif;
   background-color: #FFF;
 }
 
 p {
   margin-bottom: 20px;
+  font-size:16px;
+}
+
+li {
+  font-size:16px;  
 }
 
 .content-wrapper {
@@ -113,7 +131,11 @@ p {
 }
 
 .post.sticky {
-  background: #E0F0FF;
+  background: #E4ECF3;
+}
+
+.post-heading .post-title {
+  font-size: 20px;
 }
 
 
@@ -156,7 +178,7 @@ p {
 }
 
 #about h1 {
-  margin-bottom:20px;
+  margin-bottom:40px;
 }
 
 #about li {
@@ -177,3 +199,49 @@ p {
 }
 
 /*End About Page*/
+
+
+/*Resources Page*/
+
+
+#resources {
+  margin: 70px auto;
+  max-width: 700px;
+}
+
+#resources h1 {
+  margin-bottom:40px;
+}
+
+#resources li {
+  margin: 0 0 0 20px;
+  list-style: disc;
+}
+
+#resources h3 {
+  margin-bottom: 0px;
+  color: inherit;
+}
+
+#resources h2 {
+  font-size: 30px;
+}
+
+#resources a {
+  color: #dd3416;
+}
+
+#resources a:hover {
+  text-decoration: underline;
+}
+
+#resources p {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+#resources table tr td {
+  padding: 25px 10px 0 10px;
+}
+
+/*End Resources Page*/
