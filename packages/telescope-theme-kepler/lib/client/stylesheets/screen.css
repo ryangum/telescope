@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'proxima-nova';
-    src: url('packages/telescope-theme-kepler/lib/client/css/fonts/proximanova-regular-webfont.eot');
-    src: url('packages/telescope-theme-kepler/lib/client/css/fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('packages/telescope-theme-kepler/lib/client/css/fonts/proximanova-regular-webfont.woff') format('woff'),
-         url('packages/telescope-theme-kepler/lib/client/css/fonts/proximanova-regular-webfont.ttf') format('truetype'),
-         url('packages/telescope-theme-kepler/lib/client/css/fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    src: url('packages/telescope-theme-kepler/lib/client/fonts/proximanova-regular-webfont.eot');
+    src: url('packages/telescope-theme-kepler/lib/client/fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('packages/telescope-theme-kepler/lib/client/fonts/proximanova-regular-webfont.woff') format('woff'),
+         url('packages/telescope-theme-kepler/lib/client/fonts/proximanova-regular-webfont.ttf') format('truetype'),
+         url('packages/telescope-theme-kepler/lib/client/fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
   font-weight:400;
   font-style:normal;
 }
