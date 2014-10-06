@@ -1,18 +1,18 @@
 
 
 @font-face {
-  font-family: 'proxima-nova';
-    src: url('packages/telescope-theme-kepler/lib/client/fonts/proximanova-regular-webfont.eot');
-    src: url('packages/telescope-theme-kepler/lib/client/fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('packages/telescope-theme-kepler/lib/client/fonts/proximanova-regular-webfont.woff') format('woff'),
-         url('packages/telescope-theme-kepler/lib/client/fonts/proximanova-regular-webfont.ttf') format('truetype'),
-         url('packages/telescope-theme-kepler/lib/client/fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+  font-family: 'proxima nova';
+    src: url('public/fonts/proximanova-regular-webfont.eot');
+    src: url('public/fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('public/fonts/proximanova-regular-webfont.woff') format('woff'),
+         url('public/fonts/proximanova-regular-webfont.ttf') format('truetype'),
+         url('public/fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
   font-weight:400;
   font-style:normal;
 }
 
 body {
-  font-family: "proxima-nova", "Open Sans", "Proxima Nova Soft", "proxima-nova-soft", "PT SANS", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "proxima nova", "Open Sans", "Proxima Nova Soft", "proxima-nova-soft", "PT SANS", "Helvetica Neue", Helvetica, sans-serif;
   background-color: #FFF;
 }
 
@@ -134,9 +134,9 @@ li {
   background: #E4ECF3;
 }
 
-.post-heading .post-title {
+/*.post-heading .post-title {
   font-size: 20px;
-}
+}*/
 
 
 
