@@ -138,6 +138,11 @@ li {
   background: #E4ECF3;
 }
 
+.points {
+  font-weight: bold;
+  color: #a4a9ab;
+}
+
 /*.post-heading .post-title {
   font-size: 20px;
 }*/
